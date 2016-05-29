@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="181.0" prefWidth="457.0">
+            <children>
+                <Button layoutX="260.0" layoutY="117.0" mnemonicParsing="false" onAction="#RandomTable" prefHeight="31.0" prefWidth="150.0" text="Random method" />
+                <MenuBar layoutY="-2.0" prefHeight="32.0" prefWidth="457.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="SETTINGS">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Close" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+                <Button layoutX="266.0" layoutY="61.0" mnemonicParsing="false" onAction="#SeqTable" prefHeight="31.0" prefWidth="150.0" text="Linear method" />
+                <Label alignment="CENTER" layoutX="37.0" layoutY="55.0" prefHeight="21.0" prefWidth="128.0" text="Table Size" />
+                <TextField fx:id="TextFieldSize" alignment="CENTER" layoutX="22.0" layoutY="92.0" />
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

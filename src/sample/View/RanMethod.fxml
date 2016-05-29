@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.RandomController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="483.0" prefWidth="632.0">
+         <children>
+            <TableView fx:id="TableViewHash" layoutX="14.0" layoutY="14.0" prefHeight="386.0" prefWidth="244.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+              <columns>
+                <TableColumn fx:id="HashId" prefWidth="79.0" text="Number" />
+                <TableColumn fx:id="HashVariable" prefWidth="166.0" text="id" />
+              </columns>
+            </TableView>
+            <TableView fx:id="TableViewData" layoutX="244.0" layoutY="14.0" prefHeight="386.0" prefWidth="378.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+              <columns>
+                <TableColumn fx:id="DataNumber" minWidth="0.0" prefWidth="0.0" text="Number" />
+                <TableColumn fx:id="DataValue" prefWidth="377.0" text="Value" />
+              </columns>
+            </TableView>
+            <Button layoutX="251.0" layoutY="396.0" mnemonicParsing="false" onAction="#addVar" prefHeight="31.0" prefWidth="139.0" text="ADD VARIABLE" />
+            <Button layoutX="438.0" layoutY="396.0" mnemonicParsing="false" onAction="#EfficiencyRandom" prefHeight="31.0" prefWidth="152.0" text="EFFICIENCY TEST" />
+            <Label layoutX="28.0" layoutY="403.0" text="Id" />
+            <TextField fx:id="TextFieldId" layoutX="53.0" layoutY="396.0" prefHeight="31.0" prefWidth="176.0" />
+            <Label layoutX="19.0" layoutY="442.0" text="Value" />
+            <TextField fx:id="TextFieldValue" layoutX="53.0" layoutY="435.0" prefHeight="31.0" prefWidth="176.0" />
+         </children></AnchorPane>
+   </children>
+</GridPane>

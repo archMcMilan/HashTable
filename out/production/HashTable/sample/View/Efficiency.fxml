@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="190.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.EfficiencyController">
+   <children>
+      <Label layoutX="41.0" layoutY="32.0" text="10 %" />
+      <TextField fx:id="TextField1" alignment="CENTER" editable="false" layoutX="103.0" layoutY="25.0" prefHeight="31.0" prefWidth="67.0" />
+      <TextField fx:id="TextField2" alignment="CENTER" editable="false" layoutX="103.0" layoutY="74.0" prefHeight="31.0" prefWidth="67.0" />
+      <Label layoutX="41.0" layoutY="81.0" text="50 %" />
+      <Label layoutX="41.0" layoutY="130.0" text="90 %" />
+      <TextField fx:id="TextField3" alignment="CENTER" editable="false" layoutX="103.0" layoutY="123.0" prefHeight="31.0" prefWidth="67.0" />
+   </children>
+</AnchorPane>
